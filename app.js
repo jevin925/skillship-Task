@@ -63,5 +63,5 @@ app.use("/", oneRoutes);
 
 
 app.listen(process.env.PORT || 3000, process.env.IP, function(){
-console.log("CovidStatus Server has Started");
+console.log("Server has Started");
 });
